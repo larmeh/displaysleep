@@ -24,6 +24,14 @@ Build manually using:
 
 Copy to e.g. /usr/local/bin and make sure the location is in your PATH.
 
+If you use Jigish's excellent tool slate, put this in your .slate configuration
+to assign a keyboard shortcut to displaysleep:
+    
+    bind l:cmd;alt shell wait path:~/bin '/Volumes/Daten/Users/larmeh/bin/displaysleep'
+
+This would assign displaysleep to Cmd+Alt L. Use whatever suits you by altering
+the first bind parameter.
+
 TODO
 ====
 - Makefile including 'install' target
