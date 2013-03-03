@@ -1,10 +1,10 @@
 displaysleep
 ============
 
-Tiny command line tool that puts all attached displays to sleep and turns of
-keyboard illumination. Eventually, this will lock the computer after a certain
-amount of time that can be set in the Preferences->Security settings. This is
-useful if e.g. you take your MacBook to work regularly and need a "lock"
+Tiny OS X command line tool that puts all attached displays to sleep and turns
+off keyboard illumination. Eventually, this will lock the computer after a
+certain amount of time, which can be set in the Preferences->Security settings.
+This is useful if e.g. you take your MacBook to work regularly and need a "lock"
 feature like Windows' Meta+L.
 Formally, this functionality was provided on all Macs with optical drives and
 eject button. On laptops such as the Macbook Air or the new Retina Macbook Pro
